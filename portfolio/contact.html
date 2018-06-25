@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallerij</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One|Tangerine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+</head>
+<body>
+<!--Dit is de header-->
+<header class="paginacontactnav">
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+            <li><a href="overmij.html"><i class="fa fa-user" aria-hidden="true"></i> Over Mij</a></li>
+            <li><a href="opleiding.html"><i class="fa fa-book" aria-hidden="true"></i> Opleiding</a></li>
+            <li><a href="gallerij.html"><i class="fa fa-camera" aria-hidden="true"></i> Gallerij</a></li>
+            <li><a href="contact.html"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<!--Dit is de main-->
+<main>
+    <div class="achterschermcontact">
+        <div class="lijntjetussen"></div>
+    <div class="achtergrondcontact"></div>
+    <h2>Contact</h2>
+        <div class="contactformulier">
+            <label for="voornaam">Naam</label>
+            <input type="text" id="voornaam" required>
+            <label for="achternaam">Achternaam</label>
+            <input type="text" id="achternaam" required>
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" required>
+            <label for="tekst">Opmerkingen</label>
+            <input type="text" id="tekst">
+            <button onclick="verzonden()">Verzenden</button>
+        </div>
+    </div>
+    <!--script-->
+    <script src="script.js"></script>
+</main>
+</body>
+</html>

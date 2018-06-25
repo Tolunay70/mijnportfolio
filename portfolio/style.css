@@ -1,0 +1,1159 @@
+/*Dit is de header*/
+.menuhomepagina {
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    height: 10%;
+}
+.menuhomepagina ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.menuhomepagina ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding: 2rem 4rem;
+}
+.menuhomepagina ul li a:hover{
+    color: #00fff1;
+}
+.menuhomepagina ul li:hover{
+    transform: scale(1.4);
+    transition: 700ms;
+}
+.rechternavigatie {
+    height: 30%;
+    width: 200px;
+    right: -140px;
+    top: 25%;
+    position: fixed;
+    transition: 300ms ease;
+}
+.rechternavigatie:hover{
+    right: 0;
+}
+.rechternavigatie ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    right:0;
+    margin:25% 2% 0 0;
+}
+.rechternavigatie ul li a {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 20px;
+    float: left;
+    margin-right: 10%;
+    text-decoration: none;
+    margin-top: 3%;
+}
+.legeruimtetussen1 {
+    float: left;
+    height: 25vh;
+    width: 100vw;
+    background-color: #161616;
+}
+/*Dit is de body*/
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.achtergrond-hoofdpagina{
+    background-color: #232323;
+    margin: 0;
+}
+
+/*Dit is de main*/
+.beginpagina {
+    background-image: url("foto/achtergrond.png") ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.beginpagina h1 {
+    color: #919191;
+    font-size: 5em;
+    margin: -1.5em 0 0 10rem;
+    font-family: 'Archivo Black', sans-serif;
+}
+.beginpagina h2 {
+    color: grey;
+    font-size: 2rem;
+    margin: 0.7em 0 0 5em;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bolder;
+    line-height: 0.95;
+}
+.beginpagina h3 {
+    font-family: 'Archivo Black', sans-serif;
+    margin:2em 0 2em 10.2rem;
+    color: grey;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10.2em;
+}
+.socialmedia p {
+    margin-right: 1.3em;
+    font-size: 1.4em;
+}
+.socialmedia p i{
+    color: grey;
+}
+.socialmedia p .fa-facebook:hover{
+    color: #3B5998;
+}
+.socialmedia p .fa-snapchat-ghost:hover{
+    color:#fffc00;
+}
+.socialmedia p .fa-twitter:hover{
+    color: #55acee;
+}
+.socialmedia p .fa-instagram:hover{
+    color: #e95950;
+}
+.fotohomepagina {
+    background-image: url("foto/fotozonderborder.jpg");
+    background-size: cover;
+    border: solid 10px #434343;
+    width: 235px;
+    height: 400px;
+    position: absolute;
+    right: 250px;
+    top: 150px;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*KLEURENDE LETTERS*/
+
+.letterT {
+    color: grey;
+    animation: 1.5s letter1 infinite alternate;
+    animation-delay: 200ms;
+
+}
+.letterO {
+    color: grey;
+    animation: 1.5s letter2 infinite alternate;
+    animation-delay: 300ms;
+}
+.letterL {
+    color: grey;
+    animation: 1.5s letter3 infinite alternate;
+    animation-delay: 400ms;
+}
+.letterU {
+    color: grey;
+    animation: 1.5s letter4 infinite alternate;
+    animation-delay: 500ms;
+}
+.letterN {
+    color: grey;
+    animation: 1.5s letter5 infinite alternate;
+    animation-delay: 600ms;
+}
+.letterA {
+    color: grey;
+    animation: 1.5s letter6 infinite alternate;
+    animation-delay: 700ms;
+}
+.letterY {
+    color: grey;
+    animation: 1.5s letter7 infinite alternate;
+    animation-delay: 800ms;
+}
+.letterU2 {
+    color: grey;
+    animation: 1.5s letter8 infinite alternate;
+    animation-delay: 900ms;
+}
+.letterY2 {
+    color: grey;
+    animation: 1.5s letter9 infinite alternate;
+    animation-delay: 1000ms;
+}
+.letterS2 {
+    color: grey;
+    animation: 1.5s letter10 infinite alternate;
+    animation-delay: 1100ms;
+
+}
+.letterA2 {
+    color: grey;
+    animation: 1.5s letter11 infinite alternate;
+    animation-delay: 1200ms;
+}
+.letterL2 {
+    color: grey;
+    animation: 1.5s letter12 infinite alternate;
+    animation-delay: 1300ms;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                                                      /*KEYFRAMES*/
+@keyframes letter1 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color:#00fff1;}
+    100% {color: grey;}
+}
+@keyframes letter2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter3 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter4 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter5 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter6 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter7 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter8 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter9 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter10 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter11 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letter12 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+.ruimtetussen{
+    margin:0 2%;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////*PAGINA 2 KEYFRAMES////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.letterTP2 {
+    color: grey;
+    animation: 2s letterTP2 infinite alternate;
+    animation-delay: 1600ms;
+
+}
+.letterOP2 {
+    color: grey;
+    animation: 2s letterOP2 infinite alternate;
+    animation-delay: 1000ms;
+}
+.letterLP2 {
+    color: grey;
+    animation: 1.5s letterLP2 infinite alternate;
+    animation-delay: 400ms;
+}
+.letterUP2 {
+    color: grey;
+    animation: 1.5s letterUP2 infinite alternate;
+    animation-delay: 1400ms;
+}
+.letterNP2 {
+    color: grey;
+    animation: 1.5s letterNP2 infinite alternate;
+    animation-delay: 1200ms;
+}
+.letterAP2 {
+    color: grey;
+    animation: 2s letterAP2 infinite alternate;
+    animation-delay: 400ms;
+}
+.letterYP2 {
+    color: grey;
+    animation: 2s letterYP2 infinite alternate;
+    animation-delay: 100ms;
+}
+.letterU2P2 {
+    color: grey;
+    animation: 2s letterU2P2 infinite alternate;
+    animation-delay: 900ms;
+}
+.letterY2P2 {
+    color: grey;
+    animation: 2s letterY2P2 infinite alternate;
+    animation-delay: 500ms;
+}
+.letterS2P2 {
+    color: grey;
+    animation: 1s letterS2P2 infinite alternate;
+    animation-delay: 200ms;
+
+}
+.letterA2P2 {
+    color: grey;
+    animation: 1s letterA2P2 infinite alternate;
+    animation-delay: 1200ms;
+}
+.letterL2P2 {
+    color: grey;
+    animation: 1s letterL2P2 infinite alternate;
+    animation-delay: 1000ms;
+
+}
+.ruimtetussen2{
+    margin:0 0.5%;
+}
+
+@keyframes letterTP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color:#00fff1;}
+    100% {color: grey;}
+}
+@keyframes letterOP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterLP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterUP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterNP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterAP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterYP2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterU2P2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterY2P2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterS2P2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterA2P2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+@keyframes letterL2P2 {
+    0%   {color: grey;}
+    25%  {color: grey;}
+    50%  {color: #00fff1;}
+    100% {color: grey;}
+}
+
+
+/*///////////////////////////////////////////////   //////////////////////////////////////////////////////////////////*/
+                                          /*PAGINA 2   OVER MIJ*/
+#overmij {
+    background-color: #1c1c1c;
+    float: left;
+    height: 170vh;
+    width: 100vw;
+}
+
+.menuovermij {
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    height: 10%;
+}
+.menuovermij ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.menuovermij ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding: 2rem 4rem;
+}
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////WieBenIk informatie//////////////////////////////*/
+.nummer1 {
+    color: #444;
+    text-decoration: underline;
+    margin: 15% 0 0 23%;
+}
+#overmij .titelpagina2 {
+    font-family: 'Archivo Black', sans-serif;
+    color: gray;
+    margin: 6% 0 0 2em;
+}
+#overmij .titelpagina2 h2 {
+    margin-bottom: -5%;
+    font-size: 6em;
+}
+#overmij .titelpagina2 h3 {
+    font-size: 2.5em;
+    margin: 3% 0 0 32%;
+    font-family: 'Oswald', sans-serif;
+}
+
+#overmij .wiebenik {
+    margin: 2em 0 0 10%;
+    color: #b1b1b1;
+
+}
+#overmij .wiebenik .titel {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3.5em;
+    border-bottom: solid 5px #b1b1b1;
+    display: inline-block;
+}
+#overmij .wiebenik p {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.75;
+    font-size: 1.1rem;
+    color: #888;
+}
+.paragraaf2 {
+    margin-top: 2%;
+}
+.paragraaf3 {
+    margin-top: 5%;
+    font-weight: bolder;
+}
+.pijltjeovermij i {
+    font-size: 4em;
+    color: #888;
+    margin-top: 3rem;
+}
+.pijltjeovermij i:hover{
+    color: #00fff1;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////      PAGINA 3      ///////////////////////////////////////////*/
+
+.legeruimtetussen2 {
+    float: left;
+    height: 25vh;
+    width: 100vw;
+    background-color: #212121;
+}
+#opleiding {
+    float: left;
+    height: 150vh;
+    width: 100vw;
+    background-color: #1c1c1c;
+}
+#opleiding section h3 {
+    color: gray;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5.7em;
+}
+#opleiding section h3 span {
+    color: #444;
+    text-decoration: underline;
+    margin: 15% 2% 0 23%;
+}
+#opleiding .kop1 {
+    font-size: 3.5em;
+    margin: 2% 0 0 10%;
+    font-family: 'Oswald', sans-serif;
+    color: #b1b1b1;
+    border-bottom: solid 5px #b1b1b1;
+    display: inline-block;
+}
+#opleiding p {
+    margin: 2em 0 0 10%;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.75;
+    font-size: 1.1rem;
+    color: #888;
+}
+#opleiding .opleidingp1 {
+    margin-top: 5.5em;
+}
+#opleiding .opleidingp2 {
+    margin-top: 40px;
+}
+.pijltjeopleiding i{
+    font-size: 4em;
+    color: #888;
+    margin-top: 3rem;
+    margin-left: 2.35em;
+}
+.pijltjeopleiding i:hover{
+    color: #00fff1;
+}
+.legeruimtetussen3 {
+    float: left;
+    height: 25vh;
+    width: 100vw;
+    background-color: #161616;
+}
+/*/////////////////////////////////////////PAGINA 4////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////////////////////////////////*/
+#gallerij{
+background-color: #1c1c1c;
+float: left;
+height: 125vh;
+width: 100vw;
+}
+#gallerij section h3 {
+    color: gray;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5.7em;
+}
+#gallerij section span {
+    color: #444;
+    text-decoration: underline;
+    margin: 15% 2% 0 25%;
+}
+#gallerij p {
+    font-family: 'Archivo Black', sans-serif;
+    color: gray;
+    font-size: 1.4em;
+    margin:-3% 0 0 32%;
+}
+.gallerijfoto1 {
+    background-image: url("foto/IMG_2157.JPG");
+    background-size: cover;
+    width: 245px;
+    height: 300px;
+    margin: 10% 0 0 6em;
+    border: solid #555555 5px;
+    transition: 500ms;
+}
+.gallerijfoto1:hover {
+    transform: scale(1.3);
+}
+.gallerijfoto2 {
+    background-image: url("foto/school.png");
+    background-size: cover;
+    height: 164px;
+    width: 307px;
+    margin: -16% 0 0 37%;
+    border: solid #555555 5px;
+    transition: 500ms;
+}
+.gallerijfoto2:hover {
+    transform: scale(1.3);
+}
+.gallerijfoto3 {
+    background-image: url("foto/IMG_1619.PNG");
+    background-size: cover;
+    width: 220px;
+    height: 350px;
+    margin: -17% 0 0 73%;
+    border: solid #555555 5px;
+    transition: 500ms;
+}
+.gallerijfoto3:hover {
+    transform: scale(1.3);
+}
+.legeruimtetussen4 {
+    float: left;
+    height: 25vh;
+    width: 100vw;
+    background-color: #161616;
+}
+/*//////////////////////////////////////////////PAGINA 5 CONTACT////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////////*/
+#contact .achtergrondformulier {
+    background-image: url("foto/achtergrondformulier2.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 150vh;
+    z-index: -1;
+    position: absolute;
+}
+#contact {
+    float: left;
+    height: 150vh;
+    width: 100vw;
+}
+#contact p {
+    font-family: 'Oswald', sans-serif;
+    color: #b1b1b1;
+    font-size: 2.4em;
+    border-bottom: solid 5px #b1b1b1;
+    display: inline-block;
+    margin: -2em 0 0 15%;
+}
+#contact section h3 {
+    color: gray;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 5.7em;
+}
+#contact section span {
+    color: #444;
+    text-decoration: underline;
+    margin: 15% 2% 0 31%;
+}
+#contact button {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #aeaeae;
+    font-weight: 900;
+}
+
+.contactmainpagina {
+    margin:7% 0 0 15%;
+}
+.contactmainpagina label{
+    display: block;
+    color: #a7a7a7;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 2px;
+}
+.contactmainpagina input {
+    background-color: grey;
+    margin-bottom: 3em;
+    padding: 2px;
+}
+#tekst {
+    padding: 0 50px 50px 0;
+}
+.legeruimtetussen5 {
+    float: left;
+    height: 2px;
+    width: 100vw;
+    background-color: #212121;
+}
+/*///////////////////////////////////////////Dit is de footer///////////////////////////////////////////////////////*/
+footer {
+    width: 100vw;
+    height: 35vh;
+    background-color: #111;
+    float: left;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    margin: 5em 0 0 10em;
+}
+footer ul li {
+    list-style: none;
+    color: #555;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.6;
+    font-size: 15px;
+}
+footer p {
+    text-align: center;
+    margin-top: -5em;
+    color: #555;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+}
+/*////////////////////////////////////////////////EINDE HOOFDPAGINE////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////OVER MIJ////////////////////////////////////////////////////////*/
+.fotoovermij {
+    background-image: url("foto/fotozonderborder.jpg");
+    background-size: cover;
+    border: solid 10px #434343;
+    width: 235px;
+    height: 400px;
+    position: absolute;
+    right: 10em;
+    top: 65%;
+}
+.paginaovermijnav {
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    height: 10%;
+}
+.paginaovermijnav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.paginaovermijnav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding: 2rem 4rem;
+}
+.paginaovermijnav ul li a:hover{
+    color: #00fff1;
+}
+.paginaovermijnav ul li:hover{
+    transform: scale(1.4);
+    transition: 700ms;
+}
+.achtergrondovermij {
+    background-color: #232323;
+    float: left;
+    height: 270vh;
+    width: 100vw;
+}
+.cvschool {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2em;
+    position: absolute;
+    top: 4em;
+    right: 10%;
+    background-color: #2a2a2a;
+    padding: 10px;
+}
+main .paginaovermijtitel {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;
+    color: gray;
+    position: absolute;
+    margin: 7rem 0 0 32%;
+    border-bottom: solid 6px gray;
+}
+.overmijwiebenik {
+    font-size: 3em;
+    color: #b1b1b1;
+    margin:20% 0 2em 3em;
+    font-family: 'Oswald', sans-serif;
+}
+.achtergrondovermij p {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.75;
+    font-size: 1.1rem;
+    color: #888;
+    margin:3em 0 0 8.4em;
+}
+.development {
+    font-family: 'Work Sans', sans-serif;
+    color:white;
+    font-size: 1.4em;
+    border-collapse: collapse;
+    margin: 5em 0 0 19%;
+}
+caption {
+    font-size: 2em;
+    margin: 1.5rem;
+}
+.development {
+    margin-top: 2rem;
+}
+.development th {
+    background-color: #005451;
+    border-right: solid 3px white;
+    padding: 0 10px;
+}
+.development tr {
+    border: 1px solid white;
+}
+.development td {
+    border-right: solid 2px #eeeeee;
+    background-color: #363636;
+}
+.onderaandevelopment {
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.75;
+    font-size: 1.1rem;
+    color: #888;
+    margin:3em 0 0 8.4em;
+}
+/*////////////////////////////////////////////////////OPLEIDING/////////////////////////////////////////////////*/
+.achtergrondopleiding {
+    background-color: #232323;
+    float: left;
+    height: 180vh;
+    width: 100vw;
+}
+.paginaopleidingnav {
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    height: 10%;
+}
+.paginaopleidingnav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.paginaopleidingnav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding: 2rem 4rem;
+}
+.paginaopleidingnav ul li a:hover{
+    color: #00fff1;
+}
+.paginaopleidingnav ul li:hover{
+    transform: scale(1.4);
+    transition: 700ms;
+}
+.paginaopleidingtitel {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;
+    color: gray;
+    position: absolute;
+    margin: 7rem 0 0 32%;
+    border-bottom: solid 6px gray;
+}
+.opleidingschool {
+    font-size: 3em;
+    color: #b1b1b1;
+    margin:20% 0 2em 3em;
+    font-family: 'Oswald', sans-serif;
+    position: absolute;
+}
+.achtergrondopleiding p{
+    font-family: 'Work Sans', sans-serif;
+    line-height: 1.75;
+    font-size: 1.1rem;
+    color: #888;
+    margin:3em 0 0 8.4em;
+}
+.achtergrondopleiding .beschrijvingopleiding1 {
+    margin-top: 30%;
+ }
+.fotoopleiding {
+    background-image: url("foto/logo-techniek-college.svg");
+    background-size: cover;
+    width: 400px;
+    height: 144px;
+    right: 8%;
+    top: 60%;
+    position: absolute;
+}
+
+/*/////////////////////////////////////////////////////Gallerij////////////////////////////////////////////////*/
+
+.paginagallerijnav {
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    height: 10%;
+}
+.paginagallerijnav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.paginagallerijnav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding: 2rem 4rem;
+}
+.paginagallerijnav ul li a:hover{
+    color: #00fff1;
+}
+.paginagallerijnav ul li:hover{
+    transform: scale(1.4);
+    transition: 700ms;
+}
+.achtergrondgallerij {
+    background-color: #232323;
+    float: left;
+    height: 240vh;
+    width: 100vw;
+}
+.paginagallerijtitel {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;
+    color: gray;
+    position: absolute;
+    margin: 7rem 0 0 38%;
+    border-bottom: solid 6px gray;
+}
+.fotolijst1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 25%;
+}
+.foto1 {
+    height: 300px;
+    width: 175px;
+    transition: 500ms;
+}
+.foto1:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+.foto2 {
+
+    height: 300px;
+    width: 180px;
+    transition: 500ms;
+}
+.foto2:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+.foto3 {
+    width: 200px;
+    height: 300px;
+    transition: 500ms;
+}
+.foto3:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+.fotolijst2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.foto4 {
+    height: 300px;
+    width: 180px;
+    transition: 500ms;
+}
+.foto4:hover {
+     transform: scale(1.6);
+     transition: 300ms;
+ }
+.foto5 {
+    height: 230px;
+    width: 320px;
+    transition: 500ms;
+}
+.foto5:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+.foto6 {
+    height: 300px;
+    width: 180px;
+    transition: 500ms;
+}
+.foto6:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+.fotolijst3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.foto7 {
+    height: 300px;
+    width: 210px;
+    transition: 500ms;
+}
+.foto7:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+.foto8 {
+    height: 300px;
+    width: 180px;
+    transition: 500ms;
+}
+.foto8:hover {
+     transform: scale(1.6);
+     transition: 300ms;
+ }
+.foto9 {
+    height: 300px;
+    width: 240px;
+    transition: 500ms;
+}
+.foto9:hover {
+    transform: scale(1.6);
+    transition: 300ms;
+}
+
+/*/////////////////////////////////////////////////Contact//////////////////////////////////////////////////*/
+
+.paginacontactnav {
+    width: 100vw;
+    position: absolute;
+    background-color: black;
+    height: 10%;
+}
+.paginacontactnav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: 2.5em;
+    margin-right: 2.5em;
+}
+
+.paginacontactnav ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 1.4rem;
+    font-family: 'Poiret One', cursive;
+    font-weight: 900;
+    padding: 2rem 4rem;
+}
+.paginacontactnav ul li a:hover{
+    color: #00fff1;
+}
+.paginacontactnav ul li:hover{
+    transform: scale(1.4);
+    transition: 700ms;
+}
+.achterschermcontact {
+    margin-top: 4.6em;
+    width: 100vw;
+    height:120vh;
+    float: left;
+}
+.achtergrondcontact {
+    background-image: url("foto/contactachtergrondzwartwit.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+    z-index: -1;
+    position: absolute;
+}
+.achterschermcontact h2 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 6em;
+    color: gray;
+    position: absolute;
+    margin: 2rem 0 0 37%;
+    border-bottom: solid 6px gray;
+}
+.contactformulier button {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #aeaeae;
+    font-weight: 900;
+}
+
+.contactformulier {
+    margin:22% 0 0 15%;
+}
+.contactformulier label{
+    display: block;
+    color: #a7a7a7;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 2px;
+}
+.contactformulier input {
+    background-color: grey;
+    margin-bottom: 3em;
+    padding: 2px;
+}
+.lijntjetussen {
+    width: 100vw;
+    height: 1px;
+    background-color: grey;
+    float: left;
+}
